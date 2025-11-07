@@ -1,26 +1,37 @@
+from typing import Callable
+
 def main()->None: 
     n: int = int(input("n: \n"))
     k: int = int(input("k: \n"))
     
-    print(repetitionAllowedOrderMatters(n=n, k=k))
-    print(repetitionAllowedOrderMattersNot(n=n, k=k))
-    print(repetitionDisallowedOrderMatters(n=n, k=k))
-    print(repetitionDisallowedOrderMattersNot(n=n, k=k))
+    if k > n: 
+        raise Exception("must have n larger then, or equal to k")    
     
-def repetitionAllowedOrderMatters(n: int, k: int) -> int:
+    combinatorics_functions: dict[str, Callable[[int, int], int]] = {
+        "Repetition allowed & order relevant": repetitionAllowedOrderRelevant, 
+        "Repetition allowed & order irrelevant": repetitionAllowedOrderIrrelevant, 
+        "Repetition disallowed & order relevant": repetitionDisallowedOrderRelevant, 
+        "Repetition disallowed & order irrelevant": repetitionDisallowedOrderIrrelevant, 
+    }    
+    
+    for desc, func in combinatorics_functions.items():
+        print(f"{desc}: {func(n, k)}")
+    
+def repetitionAllowedOrderRelevant(n: int, k: int) -> int:
     return n**k
 
     
-def repetitionAllowedOrderMattersNot(n: int, k: int) -> int:
+def repetitionAllowedOrderIrrelevant(n: int, k: int) -> int:
     return 1
 
     
-def repetitionDisallowedOrderMatters(n: int, k: int) -> int:
+def repetitionDisallowedOrderRelevant(n: int, k: int) -> int:
      return factorial(n=n) // factorial(n=(n-k))
 
     
-def repetitionDisallowedOrderMattersNot(n: int, k: int) -> int:
-    return 1
+def repetitionDisallowedOrderIrrelevant(n: int, k: int) -> int:
+    """Binomial theorem"""
+    return factorial(n)//(factorial(n-k)*factorial(k))
 
 def factorial(n: int) -> int: 
     product: int = 1
