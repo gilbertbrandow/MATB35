@@ -63,12 +63,7 @@ def with_repetition_unordered_sentence(n: int, k: int) -> str:
 
 
 def factorial(n: int) -> int: 
-    product: int = 1
-    
-    for i in range(1, n+1): 
-        product*=i
-    
-    return product
+    return 1 if n < 2 else n * factorial(n - 1) 
 
 
 if __name__ == "__main__":
