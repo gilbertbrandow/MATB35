@@ -1,0 +1,20 @@
+n: 5
+k values (comma-separated): 3,5,6
+
+n=5, k=3
+A program executes 3 functions from 5 possible functions has 125 possible execution sequences.
+Seating 3 out of 5 guests at a wedding can result in 60 different seating arrangements.
+Choosing 3 titles from a library of 5 books can be done in 10 ways.
+Distributing 3 identical items among 5 recipients can be done in 35 ways.
+
+n=5, k=5
+A program executes 5 functions from 5 possible functions has 3125 possible execution sequences.
+Seating 5 out of 5 guests at a wedding can result in 120 different seating arrangements.
+Choosing 5 titles from a library of 5 books can be done in 1 way.
+Distributing 5 identical items among 5 recipients can be done in 126 ways.
+
+n=5, k=6
+A program executes 6 functions from 5 possible functions has 15625 possible execution sequences.
+Seating 6 out of 5 guests at a wedding is undefined when k > n.
+Choosing 6 titles from a library of 5 books is undefined when k > n.
+Distributing 6 identical items among 5 recipients can be done in 210 ways.
