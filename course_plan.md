@@ -132,3 +132,13 @@ This README replaces the detailed timeline with a per-unit status overview, exac
 - [ ] Revisited Review Questions  
 
 ---
+
+## Revisit
+
+- [ ] Euler Totient function (7)
+- [ ] Ordinary Generating functions vs. EGF  (12)
+- [ ] Recurrence relations (duality of roots) (14)
+- [ ] 20 Prove Euler circuit with all edges of even degree (19)
+- [ ] Work through proofs of sufficiant conditons for Hamilton Cycles (21 + Lectrue 7)
+
+---
