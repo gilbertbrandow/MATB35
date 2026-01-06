@@ -126,8 +126,8 @@ This README replaces the detailed timeline with a per-unit status overview, exac
 
 ## Final Revision & Oral Exam Preparation
 
-- [ ] Review Questions for oral  
-- [ ] Exam 20210604  
+- [x] Review Questions for oral  
+- [x] Exam 20210604  
 - [ ] Exam 20230530  
 - [ ] Revisited Review Questions  
 
@@ -137,8 +137,9 @@ This README replaces the detailed timeline with a per-unit status overview, exac
 
 - [ ] Euler Totient function (7)
 - [ ] Ordinary Generating functions vs. EGF  (12)
-- [ ] Recurrence relations (duality of roots) (14)
+- [x] Recurrence relations (duality of roots) (14)
 - [ ] 20 Prove Euler circuit with all edges of even degree (19)
 - [ ] Work through proofs of sufficiant conditons for Hamilton Cycles (21 + Lectrue 7)
+- [ ] Generating functions Q3 Exam 2021
 
 ---
