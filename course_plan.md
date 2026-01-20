@@ -1,7 +1,5 @@
 # MATB35 — Quick Study Plan (Simplified Checklist)
 
-This README replaces the detailed timeline with a per-unit status overview, exactly as requested.
-
 ---
 
 ## Unit 1 — Basic combinatorics & the Pigeonhole Principle
@@ -135,11 +133,38 @@ This README replaces the detailed timeline with a per-unit status overview, exac
 
 ## Revisit
 
-- [ ] Euler Totient function (7)
-- [ ] Ordinary Generating functions vs. EGF  (12)
+- [x] Euler Totient function (7)
+- [x] Ordinary Generating functions vs. EGF  (12)
 - [x] Recurrence relations (duality of roots) (14)
-- [ ] 20 Prove Euler circuit with all edges of even degree (19)
-- [ ] Work through proofs of sufficiant conditons for Hamilton Cycles (21 + Lectrue 7)
-- [ ] Generating functions Q3 Exam 2021
+- [x] 20 Prove Euler circuit with all edges of even degree (19)
+- [x] Work through proofs of sufficiant conditons for Hamilton Cycles (21 + Lecture 7)
+- [x] Generating functions Q3 Exam 2021
+- [x] Recurrence relation Q2 Exam 2021
+
+### Red
+
+- [ ] 8
+- [ ] 13
+- [ ] 19
+- [ ] 21
+- [ ] 27
+
+### Yellow
+
+- [ ] 1
+- [ ] 3
+- [ ] 7
+- [ ] 9
+- [ ] 16
+- [ ] 31
+- [ ] 32
+- [ ] 35
+- [ ] 36
+- [ ] 37
+
+### Yellowish
+
+- [ ] 24 (add, mult under congruence classes) 
+- [ ] 34
 
 ---
