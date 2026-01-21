@@ -143,28 +143,28 @@
 
 ### Red
 
-- [ ] 8
-- [ ] 13
-- [ ] 19
-- [ ] 21
-- [ ] 27
+- [x] 8
+- [x] 13
+- [x] 19 (Yellowish)
+- [x] 21 (Yellow)
+- [x] 27
+- [x] 32 (Yellow)
 
 ### Yellow
 
-- [ ] 1
-- [ ] 3
-- [ ] 7
-- [ ] 9
-- [ ] 16
-- [ ] 31
-- [ ] 32
-- [ ] 35
-- [ ] 36
-- [ ] 37
+- [x] 1
+- [x] 3 (Yellowish)
+- [x] 7
+- [x] 9 (Yellowish)
+- [x] 16
+- [x] 31
+- [x] 35
+- [x] 36
+- [x] 37
 
 ### Yellowish
 
-- [ ] 24 (add, mult under congruence classes) 
-- [ ] 34
+- [x] 24 (Well-definedeness and units)
+- [x] 34
 
 ---
