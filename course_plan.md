@@ -145,17 +145,17 @@
 
 - [x] 8
 - [x] 13
-- [x] 19 (Yellowish)
-- [x] 21 (Yellow)
+- [x] 19
+- [x] 21
 - [x] 27
-- [x] 32 (Yellow)
+- [x] 32
+
 
 ### Yellow
-
 - [x] 1
-- [x] 3 (Yellowish)
+- [x] 3
 - [x] 7
-- [x] 9 (Yellowish)
+- [x] 9
 - [x] 16
 - [x] 31
 - [x] 35
@@ -164,7 +164,7 @@
 
 ### Yellowish
 
-- [x] 24 (Well-definedeness and units)
+- [x] 24
 - [x] 34
 
 ---
